@@ -21,6 +21,7 @@ while commend != 0:
         phone=int(input("enter a phone number:\n))
         print(append.full_name())
         print(append.phone())
+        query_2= 'select * from phonebook'
 
     if commend== "remove":
         query= 'insert into phonebook values ("{}", "{}")'
@@ -28,6 +29,7 @@ while commend != 0:
         phone=int(input("enter a phone number:\n))
         print(remove.full_name())
         print(remove.phone())
+        query_2= 'select * from phonebook'
 
     if commend== "show_all":
         query_2= 'select * from phonebook'
